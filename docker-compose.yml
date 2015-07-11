@@ -1,6 +1,6 @@
 master:
   restart: always
-  image: eeacms/jenkins:master
+  image: marcellodesales/eea.docker.jenkins:master
   user: "1000"
   ports:
     - "80:8080"
