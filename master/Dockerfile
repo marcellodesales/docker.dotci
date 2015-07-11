@@ -1,5 +1,5 @@
-FROM jenkins
-MAINTAINER "Alin Voinea" <alin.voinea@eaudeweb.ro>
+FROM marcellodesales/docker-jenkins
+MAINTAINER "Marcello de Sales" <marcello.desales@gmail.com>
 
 COPY plugins.txt /usr/share/jenkins/plugins.txt
 RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins.txt

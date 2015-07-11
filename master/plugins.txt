@@ -42,7 +42,7 @@ sectioned-view:1.18
 cvs:2.11
 warnings:4.46
 configurationslicing:1.40
-github-api:1.63
+github-api:1.68
 dashboard-view:2.9.4
 sidebar-link:1.6
 speaks:0.1.1
