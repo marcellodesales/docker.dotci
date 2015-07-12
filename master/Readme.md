@@ -1,10 +1,19 @@
+## Groupon DotCI Jenkins, based on the EEA Jenkins Master/Slave
+
+Groupon has been working on a new Jenkins UI that is clean and awesome! This Docker container has it already setup. The credit goes to https://github.com/groupon/DotCi.
+
+![Travis-like Build Screens](http://i61.tinypic.com/4hvzx5.png)
+
+### Setup 
+
+After installation process below, follow Groupon's instruction on how to setup http://groupon.github.io/DotCi/Installation.html.
+
 ## Jenkins master-slave ready to run Docker image (Jenkins Swarm Plugin)
 
-Docker images for master/slave created to be used for EEA Jenkins.
+Docker images for master/slave created to be used for EEA Jenkins. I just rebuilt them with the latest Jenkins to include DotCI's plugin and dependencies.
 
 These images are generic, thus you can obviously re-use them within
 your non-related EEA projects.
-
 
 ### Supported tags and respective Dockerfile links
 
@@ -17,10 +26,18 @@ your non-related EEA projects.
 
 ### Base docker image
 
+ - [hub.docker.com](https://registry.hub.docker.com/u/marcellodesales/docker-jenkins/)
+
+Required the latest 1.6xx version, so I updated and forked from the following:
+
  - [hub.docker.com](https://registry.hub.docker.com/u/eeacms/jenkins)
 
 
 ### Source code
+
+  - [github.com](https://github.com/marcellodesales/docker-jenkins)
+
+Forked from
 
   - [github.com](http://github.com/eea/eea.docker.jenkins)
 
@@ -34,8 +51,8 @@ your non-related EEA projects.
 
 ### Usage
 
-    $ git clone https://github.com/eea/eea.docker.jenkins.git
-    $ cd eea.docker.jenkins
+    $ git clone https://github.com/marcellodesales/docker.dotci
+    $ cd docker.dotci
 
 
 Add user and password to connect jenkins slaves to jenkins master
@@ -151,8 +168,6 @@ To setup data container with existing jenkins configuration, jobs and plugins:
 ###postix.env###
 
 * `POSTFIX_DOMAIN` Mail host domain to be used with postfix SMTP only mail server
-
-
 
 
 ## Copyright and license
