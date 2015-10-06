@@ -65,7 +65,7 @@ openid4java:0.9.8.0
 jquery:1.7.2-1
 python:1.2
 email-ext:2.39
-github-oauth:0.20
+github-oauth:0.22.2
 embeddable-build-status:1.6
 external-monitor-job:1.4
 doclinks:0.6
