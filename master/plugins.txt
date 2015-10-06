@@ -114,3 +114,5 @@ description-setter:1.10
 testng-plugin:1.10
 rebuild:1.25
 jobConfigHistory:2.12
+tap:1.24
+clover:4.4.0
