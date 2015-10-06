@@ -110,3 +110,7 @@ seleniumhq:0.4
 flashlog-plugin:1.0
 claim:2.6
 github:1.11
+description-setter:1.10
+testng-plugin:1.10
+rebuild:1.25
+jobConfigHistory:2.12
